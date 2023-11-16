@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Quentin";
-  src: url("/wp-content/themes/caroline/assets/fonts/Quentin.otf") format("truetype"), url("/wp-content/themes/caroline/assets/fonts/quentin.woff2") format("woff2"), url("/wp-content/themes/caroline/assets/fonts/quentin.woff") format("woff");
+  src: url("karolina-trenerka/wp-content/themes/caroline/assets/fonts/Quentin.otf") format("truetype"), url("karolina-trenerka/wp-content/themes/caroline/assets/fonts/quentin.woff2") format("woff2"), url("karolina-trenerka/wp-content/themes/caroline/assets/fonts/quentin.woff") format("woff");
 }
 
 *,
