@@ -1,0 +1,10 @@
+2023-11-14T20:19:49+00:00 CRITICAL Uncaught Error: Call to undefined function str_contains() in /Applications/MAMP/htdocs/KarolinaS/wp-admin/includes/class-wp-site-health-auto-updates.php:335
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarolinaS/wp-admin/includes/class-wp-site-health-auto-updates.php(38): WP_Site_Health_Auto_Updates->test_all_files_writable()
+#1 /Applications/MAMP/htdocs/KarolinaS/wp-admin/includes/class-wp-site-health.php(1802): WP_Site_Health_Auto_Updates->run_tests()
+#2 /Applications/MAMP/htdocs/KarolinaS/wp-admin/includes/class-wp-site-health.php(192): WP_Site_Health->get_test_background_updates()
+#3 /Applications/MAMP/htdocs/KarolinaS/wp-admin/includes/class-wp-site-health.php(2762): WP_Site_Health->perform_test(Array)
+#4 /Applications/MAMP/htdocs/KarolinaS/wp-includes/class-wp-hook.php(303): WP_Site_Health->wp_cron_scheduled_check()
+#5 /Applications/MAMP/htdocs/KarolinaS/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Applications/MAMP/htdocs/KarolinaS/wp-includes/plugin.php(518): WP_Hook->do_acti w /Applications/MAMP/htdocs/KarolinaS/wp-admin/includes/class-wp-site-health-auto-updates.php w linii 335
+
