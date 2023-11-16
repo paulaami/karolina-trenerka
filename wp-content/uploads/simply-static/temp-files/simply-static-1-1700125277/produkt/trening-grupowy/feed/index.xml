@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Komentarze do: Trening grupowy	</title>
+	<atom:link href="https://paulaami.github.io/karolina-trenerka/produkt/trening-grupowy/feed/" rel="self" type="application/rss+xml" />
+	<link>https://paulaami.github.io/karolina-trenerka/produkt/trening-grupowy/</link>
+	<description>Moving well to feel good</description>
+	<lastBuildDate>Tue, 08 Jun 2021 15:48:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+	<item>
+		<title>
+		Autor: admin		</title>
+		<link>https://paulaami.github.io/karolina-trenerka/produkt/trening-grupowy/#comment-15</link>
+
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 08 Jun 2021 15:48:11 +0000</pubDate>
+		<guid isPermaLink="false">https://paulaami.github.io/karolina-trenerka/?post_type=product#038;p=100#comment-15</guid>
+
+					<description><![CDATA[Polecam treningi z Karoliną!]]></description>
+			<content:encoded><![CDATA[<p>Polecam treningi z Karoliną!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,254 @@
+@media (min-width: 992px) {
+  .wp-post-image {
+    height: 500px;
+  }
+
+
+  /*sidebar*/
+
+  .sidebar-img {
+    width: 250px !important;
+    height: 250px !important;
+    max-width: none !important;
+  }
+
+  .col-lg-9 {
+    padding-right: 70px;
+  }
+
+  //nav
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+    background-color: $light;
+  }
+
+  .nav {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__list {
+      width: auto;
+      transform: translateX(0);
+      position: static;
+      flex-direction: row;
+      justify-content: space-between;
+
+
+      &-item {
+        cursor: pointer;
+        margin-bottom: 0;
+      }
+
+      &-link {
+        font-size: 1.4rem;
+        &:hover {
+          color: #3c3c3c;
+        }
+  
+        &::before {
+          @include pseudo-pos;
+  
+          left: 10px;
+          bottom: 20px;
+          height: 0;
+          width: calc(100% - 20px);
+          background-color: #cadddd;
+          transition: .3s;
+        }
+  
+        &:hover::before {
+          height: calc(100% - 40px);
+        }
+      }
+    }
+
+    &__icons {
+      display: flex;
+    }
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .header {
+    &__logo {
+      &-heading {
+        font-size: 4rem;
+      }
+
+      &-text {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .main {
+    .about {
+      flex-direction: row;
+      margin-bottom: 0;
+      align-items: center;
+
+      .about__me {
+        position: relative;
+        margin-top: 0;
+        margin-left: 30px;
+        text-align: left;
+        max-width: 500px;
+
+        h2 {
+          text-align: center;
+          font-size: 3.6rem;
+        }
+      }
+    }
+
+    .offer__section {
+      &-heading {
+        font-size: 3.6rem;
+      }
+
+      &-text {
+        font-size: 1.7rem;
+      }
+
+      &-container {
+        max-width: 980px;
+      }
+
+      .justify-content {
+        width: 350px;
+        height: 450px;
+      }
+
+      &-title {
+        font-size: 4.5rem;
+      }
+    }
+
+    .opinion__section {
+      &-container {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px 60px;
+        max-width: 1000px;
+      }
+
+      .slick-prev {
+        left: 0;
+      }
+
+      .slick-next {
+        right: 0px;
+      }
+    }
+
+    .blog__section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .blog__list {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 85vw;
+    }
+
+    .blog__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-basis: 30%;
+      margin-bottom: 0;
+
+      &-photo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      &-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+
+  }
+
+  .mystory__section {
+    position: relative;
+    padding: 20px 0;
+
+    &-photo {
+      flex-basis: 45%;
+      align-self: flex-start;
+      margin: 0;
+    }
+
+    &-container {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90vw;
+      max-width: 1115px;
+    }
+
+    &-box {
+      flex-basis: 50%;
+    }
+
+    &-heading {
+      margin-top: 0;
+    }
+
+    &-text {
+      text-align: justify;
+    }
+  }
+
+  .contact__section {
+    position: relative;
+    padding: 20px 0;
+
+    &-photo {
+      flex-basis: 45%;
+      align-self: flex-start;
+      margin: 0;
+    }
+
+    &-container {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90vw;
+      max-width: 1000px;
+    }
+
+    &-box {
+      flex-basis: 50%;
+      padding-top: 15px;
+    }
+
+    &-heading {
+      margin-top: 0;
+      font-size: 2.4rem;
+    }
+
+    &-text {
+      text-align: justify;
+    }
+  }
+}

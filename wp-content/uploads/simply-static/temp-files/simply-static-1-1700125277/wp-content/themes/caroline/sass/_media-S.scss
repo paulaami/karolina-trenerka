@@ -1,0 +1,308 @@
+@media (min-width: 375px) {
+  .form__section {
+    &-container {
+      &-photobox {
+        width: 320px;
+        height: 520px;
+      }
+
+      &-signup {
+        padding: 0 40px;
+        max-width: 430px;
+      }
+    }
+  }
+
+  .wp-post-image {
+    height: 300px;
+  }
+
+  .header {
+    &__logo-heading {
+      font-size: 3.3rem;
+    }
+
+    &__logo-text {
+      font-size: 1.4rem;
+    }
+  }
+
+  .main {
+    .about {
+      &__me {
+        &-heading {
+          font-size: 3.6rem;
+        }
+      }
+
+      // &__me-text {
+      //   font-size: 1.7rem;
+      // }
+
+      // .about__me-button {
+      //   font-size: 1.8rem;
+      // }
+    }
+
+    .offer__section {
+      .justify-content {
+        height: 450px;
+        width: 85vw;
+        max-width: 360px;
+      }
+
+      &-text {
+        font-size: 1.7rem;
+      }
+
+      .section-btn {
+        font-size: 1.7rem;
+      }
+    }
+
+    .opinion__section {
+      .slick-prev {
+        left: -25px;
+      }
+
+      .slick-next {
+        right: -25px;
+      }
+
+      &-container {
+        width: 85vw;
+        margin: 0 auto;
+        padding: 30px 25px;
+      }
+
+      &-box {
+        &-photo {
+          width: 180px;
+          height: 180px;
+        }
+
+        &-text {
+          font-size: 1.5rem;
+        }
+
+        &-signature {
+          font-size: 1.7rem;
+        }
+      }
+    }
+
+    .blog__section {
+      .blog__item {
+        width: 85vw;
+        max-width: 360px;
+      }
+    }
+  }
+}
+
+@media (min-width: 414px) {
+  p {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  .main .small-lowercase-style {
+    font-size: 1.6rem;
+  }
+
+  .main .small-uppercase-style {
+    font-size: 1.4rem;
+  }
+
+  .main .form__section-container .calendar {
+    .training-time {
+      font-size: 1.3rem;
+    }
+    .small-lowercase-style {
+      font-size: 1.4rem;
+      margin-top: 10px;
+    }
+  }
+
+  .main .form__section-container-photobox {
+    padding: 20px;
+    width: 80vw;
+    max-width: 380px;
+    height: 820px;
+
+    h3 {
+      font-size: 1.8rem;
+    }
+    .small-uppercase-style {
+      font-size: 1.3rem;
+    }
+  }
+
+  .main .section__menu-container-list {
+    .small-uppercase-style {
+      font-size: 1.6rem;
+    }
+
+    .small-lowercase-style {
+      font-size: 1.3rem;
+    }
+  }
+
+  .wp-post-image {
+    height: 320px;
+  }
+
+  .main {
+    .about__me {
+      &-heading {
+        font-size: 3.2rem;
+      }
+    }
+
+    .motto__section {
+      &-container {
+        padding: 50px 15px;
+
+        &-title {
+          font-size: 60px;
+        }
+      }
+
+      &-quote {
+        width: 55px;
+        height: 55px;
+        left: 3%;
+        top: 10%;
+      }
+
+      &-heading {
+        font-size: 2.3rem;
+      }
+
+      &-subtitle {
+        font-size: 1.7rem;
+      }
+    }
+
+    .offer__section {
+      &-heading {
+        font-size: 3.2rem;
+      }
+    }
+
+    .opinion__section {
+      &-header {
+        font-size: 3.2rem;
+      }
+
+      &-box {
+        .opinion__section-box-photo {
+          width: 180px;
+          height: 180px;
+        }
+      }
+
+      .slick-prev {
+        left: -25px;
+      }
+
+      .slick-next {
+        right: -25px;
+      }
+    }
+  }
+
+  .mystory__section {
+    h2 {
+      font-size: 3.2rem;
+    }
+
+    &-title {
+      font-size: 1.9rem;
+    }
+
+    &-box {
+      max-width: 480px;
+    }
+
+    &-text {
+      font-size: 1.5rem;
+    }
+
+    &-photo {
+      max-width: 480px;
+      max-height: 550px;
+    }
+  }
+
+  .skills__section {
+    &-heading {
+      font-size: 3.2rem;
+    }
+
+    &-title {
+      font-size: 2.6rem;
+    }
+
+    &-courses {
+      max-width: 480px;
+    }
+
+    &-about {
+      &-container {
+        max-width: 480px;
+      }
+    }
+  }
+
+  .fav__section {
+    &-heading {
+      font-size: 4rem;
+      font-weight: 600;
+    }
+
+    &-box {
+      &-title {
+        font-size: 2.4rem;
+      }
+
+      &-text {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .blog__section {
+    .blog__item {
+      &-photo {
+        max-height: 360px;
+      }
+    }
+  }
+
+  .contact__section {
+    h2 {
+      font-size: 3.2rem;
+    }
+
+    &-title {
+      font-size: 1.9rem;
+    }
+
+    &-box {
+      max-width: 480px;
+    }
+
+    &-text {
+      font-size: 1.7rem;
+    }
+
+    &-photo {
+      max-width: 480px;
+      max-height: 550px;
+    }
+  }
+}

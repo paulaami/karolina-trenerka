@@ -1,0 +1,1126 @@
+@font-face {
+  font-family: "Quentin";
+  src: url("https://paulaami.github.io/karolina-trenerka/wp-content/themes/caroline/assets/fonts/Quentin.otf")
+      format("truetype"),
+    url("https://paulaami.github.io/karolina-trenerka/wp-content/themes/caroline/assets/fonts/quentin.woff2")
+      format("woff2"),
+    url("https://paulaami.github.io/karolina-trenerka/wp-content/themes/caroline/assets/fonts/quentin.woff") format("woff");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+#custom-page {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  color: #2d2d2b;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #2d2d2b;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #995c41;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.small-uppercase-style {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.small-lowercase-style {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
+  line-height: 1.7;
+}
+
+/*formularz*/
+
+#wpforms-191-field_3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+#wpforms-submit-191 {
+  min-width: 90%;
+  background-color: #2d2d2b;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  border: transparent;
+  transition: background-color 0.3s;
+}
+
+#wpforms-submit-191:hover {
+  min-width: 90% !important;
+  background-color: #995c41 !important;
+  border: transparent;
+}
+
+/* .form__section-container-signup-form button  {
+		min-width: 90%;
+		background-color: #2d2d2b !important;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 300;
+		letter-spacing: .2rem;
+		font-size: 1.2rem;
+		padding: 15px 45px;
+} */
+
+#wpforms-191-field_1,
+#wpforms-191-field_2 {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  background-color: #d4c7be;
+  border-radius: none;
+  border-radius: 0px;
+  border: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem !important;
+  letter-spacing: 0.1rem;
+}
+
+#wpforms-confirmation-191 {
+  background-color: #995c41;
+  border: 1px solid #2d2d2b;
+  color: #fff;
+  text-align: center;
+}
+
+.wpforms-confirmation-container-full,
+div[submit-success]
+  > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
+  background-color: #995c41;
+  border: 1px solid #2d2d2b;
+  color: #fff;
+  text-align: center;
+}
+
+.wpforms-confirmation-container-full {
+  background-color: #995c41;
+  border: 1px solid #2d2d2b;
+  color: #fff;
+  text-align: center;
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+  position: relative;
+  left: 10px;
+}
+
+.show-footer {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  opacity: 0.9;
+  z-index: 10;
+}
+
+.section-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+}
+
+.header__logo {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  background-image: url(https://paulaami.github.io/karolina-trenerka/wp-content/themes/caroline/img/karolinabg-s.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 55%;
+  background-size: cover;
+  z-index: 0;
+}
+
+.header__logo-shadow {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header__logo-text {
+  text-align: center;
+  line-height: 40vh;
+  color: rgba(255, 255, 255, 0.815);
+  text-shadow: 5px 5px 20px black;
+  font-family: "Quentin";
+  font-weight: 300;
+}
+
+.main__section {
+  position: relative;
+  padding-bottom: 60px;
+  background-color: #eae5e1;
+}
+
+.main__section-flower {
+  display: none;
+}
+
+.main__section-box {
+  position: relative;
+  top: -40px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  width: 85vw;
+  max-width: 380px;
+  background-color: #fff;
+}
+
+.main__section-box a {
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+}
+
+.main__section-box h2,
+.main__section-box p {
+  margin-bottom: 20px;
+  text-align-last: left;
+}
+
+.main__section-box-title {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.main__section-box-title::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -15px;
+  height: 1px;
+  width: 60px;
+  background-color: #995c41;
+}
+
+.main__section-box p:nth-of-type(2) {
+  padding-top: 7px;
+}
+
+.main__section-box p:last-of-type {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 2.4rem;
+  letter-spacing: 0.2rem;
+  font-family: "Quentin";
+}
+
+.main__section-box .main__section-box-start {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #995c41;
+}
+
+.main__section-box svg {
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  width: 60px;
+  fill: #2d2d2b;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*FORM SECTION*/
+.form__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #eae5e1;
+  padding-bottom: 70px;
+}
+
+.form__section-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.form__section-container-photobox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  padding: 5px 3px;
+  width: 260px;
+  height: 680px;
+  overflow: hidden;
+}
+
+.form__section-container .calendar {
+  position: relative;
+  background-color: #fff;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.form__section-container .calendar::after {
+  position: absolute;
+  content: "";
+  top: -3px;
+  left: 3px;
+  bottom: 3px;
+  right: -3px;
+  border: 1px solid #2d2d2b;
+}
+
+.form__section-container .calendar h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.form__section-container .calendar .small-uppercase-style,
+.form__section-container .calendar .small-lowercase-style {
+  margin-bottom: 10px;
+}
+
+.form__section-container .calendar .rating-stars {
+  width: 50px;
+  margin-bottom: 5px;
+}
+
+.form__section-container .calendar .training-time {
+  font-size: 1.2rem;
+}
+
+.form__section-container .calendar .training-time img {
+  margin-right: 3px;
+  width: 25px;
+  -webkit-filter: invert(42%) sepia(12%) saturate(1929%) hue-rotate(333deg)
+    brightness(91%) contrast(91%);
+  filter: invert(42%) sepia(12%) saturate(1929%) hue-rotate(333deg)
+    brightness(91%) contrast(91%);
+  vertical-align: middle;
+}
+
+.form__section-container .calendar span {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.form__section-container-signup {
+  margin-top: 60px;
+  padding: 0 20px;
+  max-width: 380px;
+  text-align: center;
+}
+
+.form__section-container-signup p:first-of-type {
+  margin-bottom: 20px;
+}
+
+.form__section-container-signup h2 {
+  margin-bottom: 20px;
+}
+
+.form__section-container-signup p:last-of-type {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.form__section-container-signup input {
+  margin-bottom: 15px;
+  background-color: #d4c7be;
+  padding: 10px 5px;
+}
+
+.form__section-container-signup button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 45px;
+  color: #fff;
+  background-color: #2d2d2b;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+
+.form__section-container-signup input,
+.form__section-container-signup button {
+  width: 80%;
+  border: transparent;
+}
+
+/*SECTION MENU*/
+.section__menu {
+  position: relative;
+  padding: 70px 0px;
+  background-image: url(https://paulaami.github.io/karolina-trenerka/wp-content/themes/caroline/img/jungla-s.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section__menu-shadow {
+  background-color: rgba(87, 87, 87, 0.5);
+}
+
+.section__menu-text {
+  margin-bottom: 20px;
+}
+
+.section__menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 40px;
+  width: 90vw;
+  max-width: 360px;
+  background-color: #d4c7bede;
+}
+
+.section__menu-container h2 {
+  text-align: center;
+}
+
+.section__menu-container-list {
+  margin: 10px auto;
+}
+
+.section__menu-container-list li {
+  position: relative;
+  margin-top: 20px;
+}
+
+.section__menu-container-list li::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  bottom: -6px;
+  width: 100%;
+  background-color: #d4c7be;
+}
+
+/*SECTION ABOUT*/
+/* @-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+} */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.section__about {
+  position: relative;
+  padding: 70px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.section__about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section__about-container-photo {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border: 2px solid #2d2d2b;
+}
+
+.section__about-container-photo img {
+  position: absolute;
+  top: -20%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.section__about-container-photo img:nth-last-of-type(1) {
+  /* -webkit-animation: 7s fadeInOut linear infinite; */
+  animation: 7s fadeInOut linear infinite;
+}
+
+.section__about-container-text {
+  width: 85vw;
+  max-width: 280px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.section__about-container-text h2 {
+  font-family: "Quentin";
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.section__about-container-text h3,
+.section__about-container-text p:first-of-type {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.section__about-container-text p:last-of-type {
+  margin-top: 30px;
+  padding: 0 15px;
+  text-align: justify;
+}
+
+.section__about-container-text a {
+  display: block;
+  margin-top: 30px;
+}
+
+/*OPINION SECTION*/
+.opinion__section {
+  background-color: #fff;
+  padding: 0 0 60px 0;
+}
+
+.opinion__section-header {
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 20px 0 15px 0;
+  text-align: center;
+  background-color: #9f9d91f5;
+}
+
+.opinion__section-header img {
+  display: none;
+}
+
+.opinion__section-header h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.opinion__section-header p {
+  font-size: 2.5rem;
+  font-family: "Quentin";
+  font-weight: 300;
+}
+
+.opinion__section-container {
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+.opinion__section .slick-prev {
+  left: -160px;
+}
+
+.opinion__section .slick-next {
+  right: -160px;
+}
+
+.opinion__section .slide-arrow {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: transparent;
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.opinion__section .slide-arrow:hover .carousel-arrow {
+  -webkit-filter: invert(21%) sepia(46%) saturate(18%) hue-rotate(25deg)
+    brightness(100%) contrast(86%);
+  filter: invert(21%) sepia(46%) saturate(18%) hue-rotate(25deg)
+    brightness(100%) contrast(86%);
+}
+
+.opinion__section .slick-prev {
+  left: -10px;
+}
+
+.opinion__section .slick-next {
+  right: -10px;
+}
+
+.opinion__section .arrow-left,
+.opinion__section .arrow-right {
+  -webkit-filter: invert(75%) sepia(17%) saturate(113%) hue-rotate(342deg)
+    brightness(93%) contrast(90%);
+  filter: invert(75%) sepia(17%) saturate(113%) hue-rotate(342deg)
+    brightness(93%) contrast(90%);
+}
+
+.opinion__section-box-photo {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.opinion__section-box-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.opinion__section-box-text {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.opinion__section-box-signature {
+  text-align: right;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* SOCIAL SECTION */
+.section__social {
+  position: relative;
+  padding: 50px 0;
+  background-color: #d4c7be;
+}
+
+.section__social .flower {
+  position: absolute;
+  left: -10px;
+  display: block;
+  width: 150px;
+  height: 150px;
+  top: 80px;
+}
+
+.section__social a {
+  display: block;
+  color: #2d2d2b;
+}
+
+.section__social a:hover {
+  color: #995c41;
+}
+
+.section__social-container-link {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.section__social-container h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: "Quentin";
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section__social-container-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section__social-container-list a {
+  margin-bottom: 10px;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section__social-container-list svg {
+  position: relative;
+  top: 0.3rem;
+  margin-right: 10px;
+  width: 20px;
+  fill: #2d2d2b;
+}
+
+/*FOOTER*/
+.footer {
+  padding: 15px;
+  background-color: #6f6e62;
+  -webkit-transition: bottom 0.2s ease-in-out;
+  transition: bottom 0.2s ease-in-out;
+}
+
+.footer a,
+.footer p,
+.footer span {
+  color: #fff;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #2d2d2b;
+  text-decoration: none;
+}
+
+.footer .to-top {
+  position: relative;
+  top: 5px;
+  width: 20px;
+  fill: white;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer__container-top-link {
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 2.3rem;
+  text-transform: lowercase;
+  font-family: "Quentin";
+}
+
+.footer__container-top-link:hover .to-top {
+  fill: #2d2d2b;
+}
+
+.footer__container-policy span {
+  margin: 0 5px;
+}
+
+.footer__container-copyrights a {
+  display: block;
+  margin-top: 10px;
+}
+
+.footer__container-text {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 375px) {
+  .header__logo-text {
+    font-size: 3.5rem;
+  }
+  .main__section {
+    padding-bottom: 80px;
+  }
+  .main__section-box svg {
+    width: 80px;
+  }
+  .form__section {
+    padding-bottom: 80px;
+  }
+  .form__section-container-photobox {
+    width: 320px;
+    height: 600px;
+  }
+  .form__section-container-signup {
+    padding: 0 40px;
+  }
+  .section__menu {
+    padding: 80px 0;
+  }
+  .section__menu-container-photo {
+    margin-top: 30px;
+    width: 320px;
+    height: 320px;
+  }
+  .section__about-container-photo {
+    width: 320px;
+    height: 320px;
+  }
+  .opinion__section .slick-prev {
+    left: -25px;
+  }
+  .opinion__section .slick-next {
+    right: -25px;
+  }
+  .opinion__section-container {
+    width: 85vw;
+    margin: 0 auto;
+    padding: 30px 25px;
+  }
+  .opinion__section-box-photo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header__logo {
+    background-image: url(https://paulaami.github.io/karolina-trenerka/wp-content/themes/caroline/img/karolinabg-m.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+  }
+  .small-uppercase-style {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .small-lowercase-style {
+    font-size: 1.4rem;
+  }
+  .header__logo-text {
+    font-size: 4.5rem;
+  }
+  .main__section-box {
+    top: -45px;
+    padding: 80px;
+    max-width: 520px;
+  }
+  .main__section-box svg {
+    width: 100px;
+    bottom: -60px;
+  }
+  .form__section-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 740px;
+  }
+  .form__section-container-photobox {
+    width: 350px;
+  }
+  .form__section-container .calendar h3 {
+    font-size: 1.6rem;
+  }
+  .form__section-container-signup {
+    position: relative;
+    margin-top: 0;
+    max-width: 390px;
+    padding: 0 50px;
+  }
+  .form__section-container-signup p:last-of-type {
+    padding: 0 25px;
+    text-align: justify;
+  }
+  .section__menu {
+    background-image: url(https://paulaami.github.io/karolina-trenerka/wp-content/themes/caroline/img/jungla-m.jpg);
+    background-attachment: fixed;
+  }
+  .section__about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .section__about-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 730px;
+  }
+  .section__about-container-photo {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 365px;
+    height: 460px;
+    margin-bottom: 0;
+  }
+  .section__about-container-photo img {
+    top: -5%;
+  }
+  .section__about-container-text {
+    margin-left: 20px;
+  }
+  .section__about-container-text h2 {
+    position: relative;
+    left: -20%;
+    width: 150%;
+  }
+  .section__about-container-text h3 {
+    font-size: 2.6rem;
+    font-weight: 600;
+  }
+  .section__about-container-text p:last-of-type {
+    padding: 0;
+  }
+  .opinion__section {
+    overflow: hidden;
+  }
+  .opinion__section-container {
+    width: 85vw;
+  }
+  .opinion__section-header img {
+    display: block;
+    position: absolute;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    top: 100px;
+    right: -15px;
+    width: 190px;
+    height: 190px;
+    z-index: 100;
+  }
+  .opinion__section-box-text {
+    max-width: 600px;
+  }
+  .opinion__section .slick-prev {
+    left: -40px;
+  }
+  .opinion__section .slick-next {
+    right: -40px;
+  }
+  .footer__container {
+    margin: 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .footer__container-text {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  .footer__container-top {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .footer__container-top-link {
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  .footer__container-policy {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .footer__container-copyrights {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .footer__container-copyrights a {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header__logo {
+    height: 60vh;
+    background-image: url(https://paulaami.github.io/karolina-trenerka/wp-content/themes/caroline/img/karolinabg-l.jpg);
+  }
+  .header__logo-text {
+    line-height: 60vh;
+  }
+  .main__section-flower {
+    display: block;
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    width: 300px;
+    z-index: 10;
+    -webkit-filter: invert(33%) sepia(5%) saturate(58%) hue-rotate(21deg)
+      brightness(96%) contrast(92%);
+    filter: invert(33%) sepia(5%) saturate(58%) hue-rotate(21deg)
+      brightness(96%) contrast(92%);
+  }
+  .form__section-container {
+    width: 860px;
+  }
+  .section__about-container {
+    width: 800px;
+  }
+  .opinion__section-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 30px 60px;
+    max-width: 1000px;
+  }
+  .opinion__section .slick-prev {
+    left: 0;
+  }
+  .opinion__section .slick-next {
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section__menu {
+    background-image: url(https://paulaami.github.io/karolina-trenerka/wp-content/themes/caroline/img/jungla-L.jpg);
+  }
+}

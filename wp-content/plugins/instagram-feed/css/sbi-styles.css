@@ -478,7 +478,7 @@
 }
 #sb_instagram .sb_instagram_header .sbi_header_img_hover i {
     overflow: hidden;
-    background: url('../img/small-logo.png') no-repeat 0 0;
+    background: url('https://paulaami.github.io/karolina-trenerka/wp-content/plugins/instagram-feed/img/small-logo.png') no-repeat 0 0;
 }
 #sb_instagram .sb_instagram_header .sbi_header_img_hover{
     z-index: 2;

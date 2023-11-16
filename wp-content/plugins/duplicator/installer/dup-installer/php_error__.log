@@ -1,0 +1,6 @@
+[16-Nov-2023 09:04:11 UTC] PHP ERROR LOG INIT
+[16-Nov-2023 09:04:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Duplicator\Libs\Snap\SnapURL' not found in /Applications/MAMP/htdocs/karolina-trenerka/wp-content/plugins/duplicator/installer/dup-installer/src/Core/Bootstrap.php:65
+Stack trace:
+#0 /Applications/MAMP/htdocs/karolina-trenerka/wp-content/plugins/duplicator/installer/dup-installer/main.installer.php(51): Duplicator\Installer\Core\Bootstrap::init()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/karolina-trenerka/wp-content/plugins/duplicator/installer/dup-installer/src/Core/Bootstrap.php on line 65
