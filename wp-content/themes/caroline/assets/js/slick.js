@@ -12,9 +12,9 @@ $(document).ready(function () {
         settings: {
           arrows: true,
           prevArrow:
-            '<button type="button" class="slide-arrow slick-prev"><img class="arrow-left carousel-arrow" src="/wp-content/themes/caroline/assets/svg/left-arrow.svg"></button>',
+            '<button type="button" class="slide-arrow slick-prev"><img class="arrow-left carousel-arrow" src="karolina-trenerka/wp-content/themes/caroline/assets/svg/left-arrow.svg"></button>',
           nextArrow:
-            '<button type="button" class="slide-arrow slick-next"><img class="arrow-right carousel-arrow" src="/wp-content/themes/caroline/assets/svg/right-arrow.svg"></button>',
+            '<button type="button" class="slide-arrow slick-next"><img class="arrow-right carousel-arrow" src="karolina-trenerka/wp-content/themes/caroline/assets/svg/right-arrow.svg"></button>',
         },
       },
     ],
